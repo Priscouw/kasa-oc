@@ -4,7 +4,9 @@ import logoHeader from "../../assets/img/logoHeader.png";
 const Header = () => {
   return (
     <header>
-      <img src={logoHeader} alt="logo kasa" />
+      <NavLink to="/">
+        <img src={logoHeader} alt="logo kasa" />
+      </NavLink>
       <div className="navigation">
         <ul>
           <NavLink
