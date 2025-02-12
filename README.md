@@ -1,8 +1,20 @@
-# React + Vite
+# Nina Carducci
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Contexte
 
-Currently, two official plugins are available:
+On devait developper l'ensemble d'une application de location d'appartement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objectifs
+
+- A l'aide de la maquette créer l'application responsive
+- Créer la logique de routage pour créer les différentes pages de l'application
+- Créer des composants React réutilisable
+- A l'aide d'un fichier Json afficher les pages de logements
+- Gérer la redirection vers la page d'erreur en cas d'id incorrect
+
+## Langages utilisées
+
+React
+Sass
+
+Projet réalisé dans le cadre de la formation Intégrateur Web d'Openclassrooms
