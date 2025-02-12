@@ -13,13 +13,13 @@ const Header = () => {
             to="/"
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
-            <li>Accueil</li>
+            <li className="nav-item">Accueil</li>
           </NavLink>
           <NavLink
             to="/apropos"
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
-            <li>A Propos</li>
+            <li className="nav-item">A Propos</li>
           </NavLink>
         </ul>
       </div>
