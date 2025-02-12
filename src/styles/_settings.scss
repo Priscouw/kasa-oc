@@ -1,0 +1,70 @@
+//settings
+@font-face {
+    font-family: "montserrat-500";
+    src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "montserrat-700";
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "montserrat-400";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+$font-montserrat-500: "montserrat-500", sans-serif;
+$font-montserrat-700: "montserrat-700", sans-serif;
+$font-montserrat-400: "montserrat-400", sans-serif;
+
+
+$main-color: #FF6060;
+$white-color : #FFFFFF;
+$black-color : #000000;
+
+
+//Mixins 
+
+@mixin underline-navlink {
+    text-decoration: underline $black-color;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1.1px;
+}
+
+@mixin width-center-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-montserrat-700;
+}
+
+h1,
+h2,
+h3 {
+    color: $main-color;
+}
+
+a {
+    text-decoration: none;
+    color: $black-color;
+}
+
+li {
+    list-style: none;
+}
