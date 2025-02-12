@@ -28,8 +28,8 @@ $black-color : #000000;
 
 @mixin underline-navlink {
     text-decoration: underline $black-color;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 1.1px;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 
 @mixin width-center-container {
