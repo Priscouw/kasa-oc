@@ -1,0 +1,16 @@
+@import "../styles/settings";
+
+// Imports des pages
+@import "../pages/Accueil/Accueil.scss";
+@import "../pages/Apropos/Apropos.scss";
+@import "../pages/Erreur/Erreur.scss";
+@import "../pages/Logement/Logement.scss";
+
+// Imports des components
+@import "../components/Header/Header.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Banner/Banner.scss";
+@import "../components/Card/Card.scss";
+@import "../components/Carrousel/Carrousel.scss";
+@import "../components/Tagname/Tagname.scss";
+@import "../components/Topbar/Topbar.scss";
