@@ -5,7 +5,7 @@ import imgBannerAccueil from "../../assets/img/bannerHomePage.png";
 
 const Accueil = () => {
   return (
-    <div>
+    <>
       <Banner
         imageUrl={imgBannerAccueil}
         title="Chez vous, partout et ailleurs"
@@ -13,7 +13,7 @@ const Accueil = () => {
       <div className="cardContainer">
         <Card logements={data} />
       </div>
-    </div>
+    </>
   );
 };
 

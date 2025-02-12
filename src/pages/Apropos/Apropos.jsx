@@ -7,7 +7,7 @@ import imgBannerApropos from "../../assets/img/bannerAboutPage.png";
 
 const Apropos = () => {
   return (
-    <div>
+    <>
       <Banner imageUrl={imgBannerApropos} title="" />
       <div className="topbarAproposContainer">
         {aProposList.map((topbar) => (
@@ -18,7 +18,7 @@ const Apropos = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

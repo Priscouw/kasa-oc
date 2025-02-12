@@ -22,7 +22,7 @@ const Logement = () => {
 
   if (logement) {
     return (
-      <div>
+      <>
         <Carrousel carrouselImg={logement.pictures} />
 
         {/* Informations logements */}
@@ -77,7 +77,7 @@ const Logement = () => {
             }
           />
         </div>
-      </div>
+      </>
     );
   }
   return <Erreur />;
