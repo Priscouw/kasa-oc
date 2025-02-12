@@ -1,0 +1,65 @@
+.topbar {
+    width: 100%;
+}
+
+
+.topbar-header {
+    background-color: $main-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+
+    @media (width >=768px) {
+        padding: 0.9rem;
+    }
+
+
+    &-title {
+        color: $white-color;
+        font-size: 0.813rem;
+
+        @media (width >=768px) {
+            font-size: 1.125rem;
+        }
+
+        @media (width >=1024px) {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+.angle-up {
+    transition: transform 200ms ease-in-out;
+
+    @media (width >=768px) {
+        margin-right: 0.8rem;
+        width: 24px;
+    }
+}
+
+.rotateAngle-up {
+    transform: rotate(-180deg);
+}
+
+.topbar-content {
+    max-height: 0;
+    padding: 0 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #F6F6F6;
+    font-family: $font-montserrat-400;
+    font-size: 0.75rem;
+    transition: all 250ms ease-in-out;
+
+
+    @media (width >=768px) {
+        font-size: 1.125rem;
+    }
+}
+
+.showTopbar-content {
+    padding: 1rem;
+    max-height: 900px;
+}
