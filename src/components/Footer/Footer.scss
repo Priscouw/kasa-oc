@@ -1,0 +1,31 @@
+footer {
+    background-color: $black-color;
+
+    .footerContainer {
+        @include flex-column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        padding: 3rem 0;
+        color: $white-color;
+        font-family: $font-montserrat-500;
+
+        @media (width>=768px) {
+            gap: 2rem;
+            padding: 4rem 0 2rem;
+        }
+
+        & p {
+            font-size: 0.75rem;
+            width: 33%;
+
+            @media (width >=425px) {
+                width: 50%;
+            }
+
+            @media (width>=768px) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
